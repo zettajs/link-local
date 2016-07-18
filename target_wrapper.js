@@ -10,7 +10,7 @@ function start() {
     etcd.set('/services/zetta/localhost:' + port, JSON.stringify({
       type: 'cloud-target',
       url: 'http://localhost:' + port,
-      publicUrl: 'http://127.0.0.1:' + port,
+//      publicUrl: 'http://127.0.0.1:' + port,
       created: new Date(),
       version: '0'
     }));
