@@ -5,3 +5,7 @@ link-tenant-mgmt-api
 zetta-cloud-proxy
 zetta-target-server
 default.etcd/
+.router.env
+.target.env
+link-router
+link-zetta-target
