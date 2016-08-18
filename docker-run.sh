@@ -11,6 +11,7 @@ while getopts "hv?t:r:" opt; do
             echo "Usage:"
             echo " -h: Show help"
             echo " -t <n>: Number of targets to start"
+            echo " -v: Output stdout of link containers"
             exit 0
             ;;
         t)  target_count=$OPTARG
