@@ -14,6 +14,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#!/bin/sh
-docker build -t zetta/zetta-target-server-wrapper .
-
+#!/bin/bash
+set -x
+cd git/link-local
