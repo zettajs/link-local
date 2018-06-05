@@ -36,3 +36,7 @@ Starting Services
 Link Router Running at http://localhost:3000
 Tenant Mgmt Api Running at http://localhost:2000
 ```
+
+## Disclaimer
+
+This is not an officially supported Google product.
